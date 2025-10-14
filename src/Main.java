@@ -201,7 +201,7 @@ public class Main {
 
 
 
-               Вопрос 2
+               Упражнение 2
         int num1 = 10000000;
         int a=14;
         int b=8;
@@ -218,7 +218,10 @@ public class Main {
         }
 
         System.out.println("численность населения будет через 10 лет" + num1);
-        */
+
+
+
+        Упражнение 3
 
         Scanner sc = new Scanner(System.in); //Создаем объект Scanner
 
@@ -241,6 +244,76 @@ public class Main {
 
         }
         System.out.println("Сумма вклада с учетом начисления процентов за каждый месяц составит :" + sum);
+
+
+            Упражнение 4
+
+
+        Scanner sc = new Scanner(System.in); //Создаем объект Scanner
+
+
+        System.out.print("Ввидите сумму вклада: ");
+
+        float p = 0.07f;
+        float sum;
+        sum = sc.nextFloat();
+
+        System.out.print("Ввидите срок вклада: ");
+        int num1;
+        num1 = sc.nextInt();
+
+
+        int i = num1;
+        while (i > 0){
+
+            sum = sum + sum*p;
+
+            i--;
+        }
+        System.out.println("Сумма вклада с учетом начисления процентов за каждый месяц составит :" + sum);
+
+        Упражнение 5
+
+        for (int i = 1; i <= 9; i++) {
+            // внутренний цикл
+            for (int j = 1; j <= 9; j++) {
+                System.out.print(i * j);
+                System.out.print('\t');
+            }
+            System.out.println();
+        }
+
+                Упражнение 6
+
+ */
+
+
+        for (; ;){
+
+            Scanner sc = new Scanner(System.in); //Создаем объект Scanner
+
+
+            System.out.print("Введите первое число: ");
+
+            int num1;
+            num1 = sc.nextInt();
+            System.out.print("Введите втрое число: ");
+            int num2;
+            num2 = sc.nextInt();
+
+            int num3 =num1*num2;
+            System.out.printf("результата умножения  %d \n", num3);
+
+            System.out.print("надо ли завершить выполнение ");
+            int n;
+            n = sc.nextInt();
+            if (n == 1)
+                break;
+
+
+        }
+
+
     }
 
 }
