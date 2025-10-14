@@ -17,6 +17,7 @@ public class Main {
         System.out.print("Как Вас зовут: ");
 
 //      String name = scanner.nextLine(); // Читаем строку
+//        dkljfksl
 
         String name;
         name = scanner.nextLine();
