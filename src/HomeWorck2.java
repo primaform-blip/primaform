@@ -1,3 +1,5 @@
+//МетодыМассивыСканнер
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -5,6 +7,12 @@ public class HomeWorck2 {
 
 
         public static void main(String[] args) {
+
+
+
+            // Задание 1
+
+
 
             Scanner sc = new Scanner(System.in);
 
